@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDataSource {
     let sectionsTableIdentifier = "SectionsTableIdentifier"
     var names: [String: [String]]!
     var keys: [String]!
+    var searchController: UISearchController!
+    
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
@@ -22,7 +24,21 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         names = NSDictionary(contentsOfFile: path!) as! [String : [String]]
         keys = ((NSDictionary(contentsOfFile: path!))?.allKeys as! [String]).sorted(by: <)
-
+    
+        let resultsController = SearchResultsControllerTableViewController()
+        resultsController.names = names
+        resultsController.keys = keys
+        searchController = UISearchController(searchResultsController: resultsController)
+        let searchBar = searchController.searchBar
+        searchBar.scopeButtonTitles = ["All", "Short", "Long"]
+        searchBar.placeholder = "Enter a search term"
+        searchBar.sizeToFit()
+        tableView.tableHeaderView = searchBar
+        searchController.searchResultsUpdater = resultsController
+        
+        tableView.sectionIndexBackgroundColor = UIColor.black
+        tableView.sectionIndexTrackingBackgroundColor = UIColor.darkGray
+        tableView.sectionIndexColor = UIColor.white
     }
 
     override func didReceiveMemoryWarning() {

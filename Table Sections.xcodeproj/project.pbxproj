@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E731F1D51F387A2800D67D5C /* SearchResultsControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731F1D41F387A2800D67D5C /* SearchResultsControllerTableViewController.swift */; };
 		E7DDC43D1F3869E3003B2ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DDC43C1F3869E3003B2ED5 /* AppDelegate.swift */; };
 		E7DDC43F1F3869E3003B2ED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DDC43E1F3869E3003B2ED5 /* ViewController.swift */; };
 		E7DDC4421F3869E3003B2ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DDC4401F3869E3003B2ED5 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E731F1D41F387A2800D67D5C /* SearchResultsControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsControllerTableViewController.swift; sourceTree = "<group>"; };
 		E7DDC4391F3869E3003B2ED5 /* Table Sections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table Sections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DDC43C1F3869E3003B2ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7DDC43E1F3869E3003B2ED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E7DDC4451F3869E3003B2ED5 /* LaunchScreen.storyboard */,
 				E7DDC4481F3869E3003B2ED5 /* Info.plist */,
 				E7DDC46A1F386C3C003B2ED5 /* sortednames.plist */,
+				E731F1D41F387A2800D67D5C /* SearchResultsControllerTableViewController.swift */,
 			);
 			path = "Table Sections";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7DDC43F1F3869E3003B2ED5 /* ViewController.swift in Sources */,
+				E731F1D51F387A2800D67D5C /* SearchResultsControllerTableViewController.swift in Sources */,
 				E7DDC43D1F3869E3003B2ED5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +515,7 @@
 				E7DDC4631F3869E3003B2ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7DDC4641F3869E3003B2ED5 /* Build configuration list for PBXNativeTarget "Table SectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				E7DDC4661F3869E3003B2ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7DDC4671F3869E3003B2ED5 /* Build configuration list for PBXNativeTarget "Table SectionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				E7DDC4691F3869E3003B2ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
