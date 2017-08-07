@@ -14,6 +14,7 @@
 		E7DDC4471F3869E3003B2ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DDC4451F3869E3003B2ED5 /* LaunchScreen.storyboard */; };
 		E7DDC4521F3869E3003B2ED5 /* Table_SectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DDC4511F3869E3003B2ED5 /* Table_SectionsTests.swift */; };
 		E7DDC45D1F3869E3003B2ED5 /* Table_SectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DDC45C1F3869E3003B2ED5 /* Table_SectionsUITests.swift */; };
+		E7DDC46B1F386C3C003B2ED5 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7DDC46A1F386C3C003B2ED5 /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E7DDC4581F3869E3003B2ED5 /* Table SectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table SectionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DDC45C1F3869E3003B2ED5 /* Table_SectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_SectionsUITests.swift; sourceTree = "<group>"; };
 		E7DDC45E1F3869E3003B2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7DDC46A1F386C3C003B2ED5 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E7DDC4431F3869E3003B2ED5 /* Assets.xcassets */,
 				E7DDC4451F3869E3003B2ED5 /* LaunchScreen.storyboard */,
 				E7DDC4481F3869E3003B2ED5 /* Info.plist */,
+				E7DDC46A1F386C3C003B2ED5 /* sortednames.plist */,
 			);
 			path = "Table Sections";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7DDC46B1F386C3C003B2ED5 /* sortednames.plist in Resources */,
 				E7DDC4471F3869E3003B2ED5 /* LaunchScreen.storyboard in Resources */,
 				E7DDC4441F3869E3003B2ED5 /* Assets.xcassets in Resources */,
 				E7DDC4421F3869E3003B2ED5 /* Main.storyboard in Resources */,
